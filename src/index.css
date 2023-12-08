@@ -7,12 +7,10 @@ body {
 }
 
 .home-page {
-    background: url('./data/bg.jpeg') no-repeat center center fixed;
-    background-size: cover;
+    background-image: url("./data/bg.jpeg");
     width: 100vw;
     height: 100vh;
 }
-
 
 
 /* alerts */
