@@ -8,24 +8,24 @@ import {
   Routes,
 } from "react-router-dom";
 
-import  {Form}  from "./components/Form";
-import Home from "./components/Home";
-import  Pitch  from "./components/Pitch";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Pitch from "./components/Pitch";
+import { Form } from "./components/PitchForm";
 
 const App = () => {
   return (
     <>
-      <Navbar/>
       <BrowserRouter>
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<Form />} />
           <Route path="/pitch" element={<Pitch />} />
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </>
   );
 };
