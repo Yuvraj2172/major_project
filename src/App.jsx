@@ -12,6 +12,7 @@ import  {Form}  from "./components/Form";
 import Home from "./components/Home";
 import  Pitch  from "./components/Pitch";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/pitch" element={<Pitch />} />
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </>
   );
 };
